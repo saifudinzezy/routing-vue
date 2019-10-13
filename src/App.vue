@@ -5,8 +5,9 @@
         <h1>Routing</h1>
         <hr />
         <!-- muat halaman dari vue router -->
-        <app-header></app-header>
+        <router-view name="header-top"></router-view>
         <router-view></router-view>
+        <router-view name="header-bottom"></router-view>
       </div>
     </div>
   </div>
