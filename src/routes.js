@@ -6,8 +6,8 @@ export const routes = [{
         component: Home
     },
     {
-        // path: '/user/:id', //abc.com/user/10
-        path: '/user',
+        path: '/user/:id', //abc.com/user/10
+        // path: '/user',
         component: User
     },
 ];
