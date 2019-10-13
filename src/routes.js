@@ -35,4 +35,15 @@ export const routes = [{
             }
         ]
     },
+    {
+        path: '/redirect-me',
+        redirect: {
+            name: 'home'
+        }
+    },
+    {
+        //redirect jika ada link yg gk kedaftar
+        path: '*',
+        redirect: '/'
+    }
 ];
